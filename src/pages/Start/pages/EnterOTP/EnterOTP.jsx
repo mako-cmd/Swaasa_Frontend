@@ -31,6 +31,7 @@ let EnterOTP = () => {
           name="otp"
           onChange={(e) => setValue(e.target.value)}
           mask="999-999"
+          type="tel"
           placeholder="Code"
         />
       </div>

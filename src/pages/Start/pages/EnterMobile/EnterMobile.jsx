@@ -26,10 +26,11 @@ let EnterMobile = () => {
         <InputMask
           required
           name="mobile_number"
-          value={0}
+          value={null}
           onChange={(e) => setValue(e.target.value)}
           mask="9999 999 999"
           placeholder="0400 000 000"
+          type="tel"
         />
       </div>
       <div className="p-inputgroup">
