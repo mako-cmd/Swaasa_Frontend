@@ -16,7 +16,7 @@ export default function ErrorPage() {
       }}
     >
       <h1>ERROR</h1>
-      <p>
+      <p style={{ margin: "10px", textAlign: "center" }}>
         <i>{error.statusText || error.message}</i>
       </p>
     </div>
