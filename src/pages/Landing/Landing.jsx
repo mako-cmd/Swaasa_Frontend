@@ -10,7 +10,7 @@ let Landing = () => {
             <div className="company-title">
               <div className="title flex-spaced-item">White Label</div>
               <div className="separator">|</div>
-              <img className="logo flex-spaced-item" src="../public/vite.svg" />
+              <img className="logo flex-spaced-item" src="/vite.svg" />
             </div>
             <div className="app-title">COVID-19 Screening Test</div>
           </div>
