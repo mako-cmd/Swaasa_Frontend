@@ -5,7 +5,7 @@ import ErrorPage from "./pages/errorPage/errorPage";
 import Landing from "./pages/Landing/Landing";
 import Start from "./pages/Start/Start";
 import EnterMobile from "./pages/Start/pages/EnterMobile/EnterMobile";
-import EnterOTP from "./pages/Start/pages/EnterOTP/EnterOTP.JSX";
+import EnterOTP from "./pages/Start/pages/EnterOTP/EnterOTP";
 import PrerecordInstructions from "./pages/Start/pages/PrerecordInstructions/PrerecordInstructions";
 import Record from "./pages/Record/Record";
 import Result from "./pages/Result/Result";
