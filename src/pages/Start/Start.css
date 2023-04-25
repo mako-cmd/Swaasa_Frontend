@@ -1,0 +1,30 @@
+.page-wrapper {
+  display: grid;
+  grid-template-rows: 2fr 12fr;
+}
+
+.header-wrapper {
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.body {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+  width: 90vw;
+  min-height: 20vh;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+}
+
+.p-inputgroup {
+  margin-top: 30px;
+}
